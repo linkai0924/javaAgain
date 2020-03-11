@@ -6,6 +6,11 @@
 2. 可重入锁 非可重入锁
  https://blog.csdn.net/u012545728/article/details/80843595
  https://blog.csdn.net/sinat_33087001/article/details/77678503
+
 3. wait notify 使用
+>main.java.javaAgain.ABClock.java
+>main.java.javaAgain.ABCwaitnotify.java
+>main.java.javaAgain.WaitAndNotify
+
 
 4. juc 并发包使用
