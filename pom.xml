@@ -10,6 +10,11 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>lock_and_sync</module>
+        <module>design_pattern</module>
+        <module>reflect_aop</module>
+        <module>classloader</module>
+        <module>dubbo_demo</module>
+        <module>netty_demo</module>
     </modules>
 
 
