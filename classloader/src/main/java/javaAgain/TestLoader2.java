@@ -1,0 +1,7 @@
+package javaAgain;
+
+public class TestLoader2 {
+    public static void main(String[] args) {
+        System.out.println("test");
+    }
+}

@@ -1,4 +1,4 @@
-package javaAgain.example;
+package javaAgain.example1;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;

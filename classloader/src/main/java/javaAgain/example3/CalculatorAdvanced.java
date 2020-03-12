@@ -1,4 +1,4 @@
-package javaAgain.example;
+package javaAgain.example3;
 
 public class CalculatorAdvanced implements ICalculator {
 
