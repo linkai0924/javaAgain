@@ -15,6 +15,7 @@
         <module>classloader</module>
         <module>dubbo_demo</module>
         <module>netty_demo</module>
+        <module>push_function</module>
     </modules>
 
 
