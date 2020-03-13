@@ -13,7 +13,7 @@ public class WaitAndNotify {
     public synchronized void waitFunc() {
         System.out.println(Thread.currentThread().getName() + " Start-----");
         try {
-            wait(100000);
+            wait(10000000);
         } catch (Exception e) {
             e.printStackTrace();
         }

@@ -16,6 +16,8 @@
         <module>dubbo_demo</module>
         <module>netty_demo</module>
         <module>push_function</module>
+        <module>spring_demo</module>
+        <module>jvm_test</module>
     </modules>
 
 
