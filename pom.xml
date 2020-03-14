@@ -18,6 +18,7 @@
         <module>push_function</module>
         <module>spring_demo</module>
         <module>jvm_test</module>
+        <module>jrebel</module>
     </modules>
 
 

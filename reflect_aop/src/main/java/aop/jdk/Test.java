@@ -7,7 +7,8 @@ import java.lang.reflect.Proxy;
  */
 public class Test {
     public static void main(String[] args) {
-        Subject subject = (Subject) Proxy.newProxyInstance(RealSubject.class.getClassLoader(), RealSubject.class.getInterfaces(), new ProxySubject(new RealSubject()));
+        Subject subject = (Subject) Proxy.newProxyInstance(RealSubject.class.getClassLoader(),
+                RealSubject.class.getInterfaces(), new ProxySubject(new RealSubject()));
         subject.sayHello();
 
         //查看subject对象的类型

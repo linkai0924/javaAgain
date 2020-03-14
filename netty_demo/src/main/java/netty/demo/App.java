@@ -1,4 +1,4 @@
-package javaAgain;
+package netty.demo;
 
 /**
  * Hello world!

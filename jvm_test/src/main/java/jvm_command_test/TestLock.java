@@ -1,4 +1,4 @@
-package javaAgain;
+package jvm_command_test;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -38,7 +38,7 @@ public class TestLock {
                     list.add(o);
                 }
                 try {
-                    Thread.sleep(1);
+                    Thread.sleep(1000);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
