@@ -18,8 +18,6 @@ public class ABCsemaphore {
         new Thread(ABCsemaphore::printA).start();
         new Thread(ABCsemaphore::printB).start();
         new Thread(ABCsemaphore::printC).start();
-
-
     }
 
     public void printA() {

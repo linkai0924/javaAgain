@@ -17,6 +17,10 @@ public class ABCwaitnotify {
         t1.start();
         t2.start();
         t3.start();
+        t1.join();
+        t2.join();
+        t3.join();
+        System.out.println("---OK---");
 
     }
 }
@@ -36,11 +40,13 @@ class Print implements Runnable {
         for (int i = 0; i < 10; i++) {
             synchronized (self) {
                 synchronized (next) {
-                    System.out.println(Thread.currentThread().getName());
+                    System.out.println(Thread.currentThread().getName() + " " + i);
                     next.notify();
                 }
                 try {
-                    self.wait();
+                    if (i < 9) {
+                        self.wait();
+                    }
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
