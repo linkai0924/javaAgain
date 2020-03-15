@@ -8,15 +8,15 @@ public class ABCwaitnotify {
     public static void main(String[] args) throws Exception {
         Object A = new Object();
         Object B = new Object();
-//        Object C = new Object();
+        Object C = new Object();
 
         Thread t1 = new Thread(new Print(A, B), "A");
-        Thread t2 = new Thread(new Print(B, A), "B");
-//        Thread t3 = new Thread(new Print(C, A), "C");
+        Thread t2 = new Thread(new Print(B, C), "B");
+        Thread t3 = new Thread(new Print(C, A), "C");
 
         t1.start();
         t2.start();
-//        t3.start();
+        t3.start();
 
     }
 }

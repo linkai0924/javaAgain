@@ -17,7 +17,9 @@ public class ProxySubject implements MethodInterceptor {
         enhancer.setSuperclass(clazz);
         enhancer.setCallback(this);
         return enhancer.create();
-        //用于创建无参的目标对象代理类，对于有参构造器则调用Enhancer.create(Class[] argumentTypes, Object[] arguments)，第一个参数表示参数类型，第二个参数表示参数的值。
+        // 用于创建无参的目标对象代理类，
+        // 对于有参构造器则调用Enhancer.create(Class[] argumentTypes, Object[] arguments)，
+        // 第一个参数表示参数类型，第二个参数表示参数的值。
     }
 
     @Override
