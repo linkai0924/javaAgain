@@ -2,7 +2,7 @@ package juc.test;
 
 import java.util.concurrent.CountDownLatch;
 
-public class TestHarness {
+public class CountDownLatchTest {
 
     public static long timeTasks(int nThreads, final Runnable task) throws InterruptedException {
         final CountDownLatch startGate = new CountDownLatch(1);

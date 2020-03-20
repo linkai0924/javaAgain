@@ -19,6 +19,7 @@
         <module>spring_demo</module>
         <module>jvm_test</module>
         <module>jrebel</module>
+        <module>kafka_demo</module>
     </modules>
 
 
